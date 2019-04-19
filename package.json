@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/koa": "^2.0.48",
+    "@types/koa-json": "^2.0.18",
     "@types/koa-router": "^7.0.40",
     "koa": "^2.7.0",
     "koa-json": "^2.0.2",
