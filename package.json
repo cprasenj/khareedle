@@ -5,7 +5,7 @@
   "main": "./src/server.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm install && npm run watch-server",
+    "start": "npm install nodemone --save && npm run watch-server",
     "watch-server": "nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node ./src/server.ts"
   },
   "author": "",
