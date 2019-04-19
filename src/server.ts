@@ -1,6 +1,7 @@
 import * as Koa from 'koa'
 import * as Router from 'koa-router' 
 import * as  json from 'koa-json'
+var cors = require('@koa/cors');
 
 
 const app = new Koa()
@@ -9,7 +10,8 @@ const router = new Router()
 
 app.use(json())
 
-router.get('khareedle', '/', (ctx) => {
+
+router.get('khareedle',  cors(), (ctx) => {
   ctx.body = { foo: 'bar' }
 })
 
