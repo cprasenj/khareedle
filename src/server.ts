@@ -1,6 +1,6 @@
 import * as Koa from 'koa'
 import * as Router from 'koa-router' 
-const json = require('koa-json')
+import * as  json from 'koa-json'
 
 
 const app = new Koa()
