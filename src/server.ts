@@ -9,9 +9,10 @@ const router = new Router()
 
 
 app.use(json())
+app.use(cors())
 
 
-router.get('khareedle',  cors(), (ctx) => {
+router.get('khareedle', '/', (ctx) => {
   ctx.body = { foo: 'bar' }
 })
 
